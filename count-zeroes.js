@@ -1,13 +1,13 @@
 function countZeroes(iter) {
-    if (iter[-1] === 1){
+    if (iter[-1] === 1) {
         return 0;
     }
-    if (iter[0] === 0){
+    if (iter[0] === 0) {
         return iter.length;
     }
     let leftIdx = 0;
     let rightIdx = iter.length - 1;
-    while (leftIdx !== rightIdx){
+    while (leftIdx !== rightIdx) {
         const midIdx = Math.floor((leftIdx + rightIdx) / 2)
         if (iter[midIdx] === 1) {
             if (iter[midIdx + 1] === 0) {

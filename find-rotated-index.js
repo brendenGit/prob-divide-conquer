@@ -1,5 +1,5 @@
-function findRotatedIndex() {
- 
+function findRotatedIndex(iter, searchValue) {
+    
 }
 
 module.exports = findRotatedIndex
